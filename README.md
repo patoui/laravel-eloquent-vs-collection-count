@@ -2,12 +2,12 @@
 
 How to install the demo application
 
+NOTE: this will take a few minutes to populate the database (inserting 100 000 records)
+
 ```
 git clone https://github.com/patoui/laravel-eloquent-vs-collection-count.git
 cd laravel-eloquent-vs-collection-count
 composer install
-touch database/database.sqlite
-php artisan migrate
 php artisan serve
 ```
 
